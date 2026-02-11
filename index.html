@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Labyrinth Treasure Hunt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game-shell">
+    <section class="game-panel">
+      <header class="game-header">
+        <h1>Labyrinth Treasure Hunt</h1>
+        <p class="game-tagline">Choose wisely or be lost forever</p>
+      </header>
+
+    
+      <div id="story"></div>
+
+    
+      <div class="controls">
+        <div id="promptText"></div>
+        <div id="choices"></div>
+      </div>
+
+      <div class="game-footer">
+  Ancient Labyrinth • Text Adventure<br>
+  Created by Samarth Swami
+</div>
+    </section>
+  </main>
+
+  <audio
+    id="bgm"
+    src="Music.mp3"
+    preload="auto"
+    loop
+  ></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
